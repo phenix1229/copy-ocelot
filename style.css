@@ -1,28 +1,39 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+#banner {
+    height: 468px;
+    background-image: url("./photos/banner-bg.png");
 }
 
 #nav {
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-between;
 }
 
 #left-nav {
     display: flex;
     flex-direction: row;
+    width: 200px;
+    padding-left: 25px;
+    justify-content: space-between;
 }
 
 #shop {
-
+    font-size: 10px;
 }
 
 #our-story {
-
+    font-size: 10px;
 }
 
 #impact {
-
+    font-size: 10px;
 }
 
 #center-nav {
@@ -37,16 +48,19 @@
 #right-nav {
     display: flex;
     flex-direction: row;
+    width: 200px;
+    padding-right: 25px;
+    justify-content: space-between;
 }
 
 #account {
-
+    font-size: 10px;
 }
 
 #cart {
-
+    font-size: 10px;
 }
 
 #elements {
-
+    font-size: 10px;
 }
