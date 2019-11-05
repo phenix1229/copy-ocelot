@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#shop {
+
+}
+
+#our-story {
+
+}
+
+#impact {
+
+}
+
+#center-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#lokai {
+
+}
+
+#right-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#account {
+
+}
+
+#cart {
+
+}
+
+#elements {
+
+}
