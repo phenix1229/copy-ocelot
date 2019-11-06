@@ -18,5 +18,18 @@ function changeNav(){
         document.querySelector('#nav').style.backgroundColor = ''
     }
 }
+
+setTimeout(function(){
+	
+	//make the div slides instead of jumping to the destination
+	document.querySelector('#quote-scroll').style.transition = "transform 0.3s ease"	
+	
+	//will slide 30px to the right, can be negative (-100px), percentage (100%)
+	document.querySelector('#quote-scroll').style.transform = "translateX(-100%)"
+ 
+}, 5000)
+
+
+
 function invertColorBlack(){event.target.style.backgroundColor = 'black'; event.target.style.color = 'white'}
 function invertColorWhite(){event.target.style.backgroundColor = 'white'; event.target.style.color = 'black'}

@@ -261,3 +261,22 @@
     border: 1px solid black;
     text-align: center;
 }
+
+#section-4 {
+    height: 300px;
+    display: flex;
+    background-color: #FBFBFB;
+}
+
+#section-5 {
+    height: 400px;
+    background-image: url('./photos/section-5-pic.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#quote-1 {
+    
+}
+
