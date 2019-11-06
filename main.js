@@ -22,12 +22,12 @@ function changeNav(){
 setTimeout(function(){
 	
 	//make the div slides instead of jumping to the destination
-	document.querySelector('#quote-scroll').style.transition = "transform 0.3s ease"	
+	document.querySelector('#quote-1').style.transition = "transform 0.3s ease"	
 	
 	//will slide 30px to the right, can be negative (-100px), percentage (100%)
-	document.querySelector('#quote-scroll').style.transform = "translateX(-100%)"
+	document.querySelector('#quote-1').style.transform = "translateX(-200%)"
  
-}, 5000)
+}, 3000)
 
 
 
