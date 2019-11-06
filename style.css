@@ -7,21 +7,35 @@
     letter-spacing: 0.3ex;
 }
 
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
 #banner {
-    height: 468px;
+    display: flex;
+    flex-direction: column;
+    height: 458px;
     background-image: url("./photos/banner-bg.png");
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 #banner-text {
-    margin-top: 100px;
+    width: 420px;
+    margin-top: 130px;
     font-size: 20px;
-    font-weight: 100; 
+    font-weight: 100;
+    text-justify: newspaper; 
 }
 
 #nav {
+    width: 100%;
+    position: fixed;
     display: flex;
     flex-direction: row;
+    height: 35px;
     padding-top: 15px;
     justify-content: space-between;
 }
@@ -29,6 +43,7 @@
 #left-nav {
     display: flex;
     flex-direction: row;
+    height: 10px;
     width: 225px;
     padding-left: 25px;
     justify-content: space-between;
@@ -49,15 +64,17 @@
 #center-nav {
     display: flex;
     flex-direction: column;
+    height: 16px;
 }
 
 #lokai {
-
+    height: 16px;
 }
 
 #right-nav {
     display: flex;
     flex-direction: row;
+    height: 10px;
     width: 225px;
     padding-right: 25px;
     justify-content: space-between;
@@ -75,10 +92,53 @@
     font-size: 10px;
 }
 
+#elements > a {
+    color: #C8C8C8;
+}
+
 #os-button {
-    height: 20px;
-    width: 200px;
-    padding: 5px 20px;
+    margin-top: 100px;
+    height: 12px;
+    width: 100px;
+    padding: 8px 20px;
     background-color: black;
     color: white;
+    font-size: 10px;
+}
+
+#section-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#s1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#s1l-top {
+
+}
+
+#s1l-middle {
+
+}
+
+#s1l-bottom {
+
+}
+
+#s1-right {
+    display: flex;
+    flex-direction: row;
+}
+
+#s1r-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#s1r-right {
+    width: 50%;
 }
