@@ -233,3 +233,31 @@
     border: 1px solid black;
     text-align: center;
 }
+
+#section-3 {
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./photos/classic_home_tile_1800x.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#classic {
+    width: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#classic-btn {
+    width: 150px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 11px;
+    border: 1px solid black;
+    text-align: center;
+}
