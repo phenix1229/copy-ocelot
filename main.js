@@ -20,16 +20,25 @@ function changeNav(){
 }
 
 setTimeout(function(){
-	
-	//make the div slides instead of jumping to the destination
 	document.querySelector('#quote-1').style.transition = "transform 0.3s ease"	
-	
-	//will slide 30px to the right, can be negative (-100px), percentage (100%)
 	document.querySelector('#quote-1').style.transform = "translateX(-200%)"
- 
 }, 3000)
 
+setTimeout(function(){
+	document.querySelector('#quote-2').style.display = "unset"
+	document.querySelector('#quote-2').style.transition = "transform 0.3s ease"	
+	document.querySelector('#quote-2').style.transform = "translateX(-350%)"
+}, 3250)
 
+setTimeout(function(){
+	document.querySelector('#quote-2').style.transform = "translateX(-500%)"
+}, 6000)
+
+setTimeout(function(){
+	document.querySelector('#quote-3').style.display = "unset"
+	document.querySelector('#quote-3').style.transition = "transform 0.3s ease"	
+	document.querySelector('#quote-3').style.transform = "translateX(-700%)"
+}, 6000)
 
 function invertColorBlack(){event.target.style.backgroundColor = 'black'; event.target.style.color = 'white'}
 function invertColorWhite(){event.target.style.backgroundColor = 'white'; event.target.style.color = 'black'}

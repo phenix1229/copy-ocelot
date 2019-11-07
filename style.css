@@ -264,17 +264,19 @@
 
 #section-4 {
     height: 250px;
-    padding: 0px;
+    /* padding: 0px; */
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     background-color: #FBFBFB;
 }
 
 #quote-scroll {
-    width: 100%;
-    padding: 0px;
-    justify-content: center;
+    /* width: 100%;
+    padding: 0px; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
 }
 
 #quote-1 {
@@ -286,6 +288,9 @@
 
 #quote-2 {
     width: 400px;
+    position: relative;
+    left: 100%;
+    display: none;
     /* height: 200px; */
     text-align: center;
     /* justify-content: center; */
@@ -293,6 +298,9 @@
 
 #quote-3 {
     width: 400px;
+    position: relative;
+    left: 200%;
+    display: none;
     /* height: 200px; */
     text-align: center;
     /* justify-content: center; */
@@ -300,6 +308,7 @@
 
 #section-5 {
     height: 400px;
+    margin: 0px 20px;
     background-image: url('./photos/section-5-pic.png');
     display: flex;
     flex-direction: row;
@@ -307,6 +316,7 @@
     align-items: center;
 }
 
-#lokai-circle > h3{
+#lokai-circle > a {
+    font-size: 40px;
     color: white;
 }
